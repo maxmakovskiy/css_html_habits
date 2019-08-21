@@ -1,0 +1,101 @@
+body {
+    background: #333;
+}
+
+.box {
+    background: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: coloranimation;
+    /* animation-duration: 6s; */
+    animation-duration: 4s; 
+    animation-iteration-count: 1;
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate; */
+    animation-fill-mode: forwards;
+}
+/* 
+@keyframes coloranimation {
+    0% { 
+        background-color: white;
+        left: 0px; top: 0px; 
+        border-radius: 0 0 0 0;
+    }
+    25% { 
+        background-color: red; 
+        left: 200px; top: 0px;
+        border-radius: 50% 0 50% 0;
+    }
+    50% { 
+        background-color: green; 
+        left: 200px; top: 200px;
+        border-radius: 50% 50% 50% 50%;
+
+    }
+    75% { 
+        background-color: blue; 
+        left: 0px; top: 200px;
+        border-radius: 0 50% 0 50%;
+    }
+    100% { 
+        background-color: white; 
+        left: 0px; top: 0px;
+        border-radius: 0 0 0 0; 
+    }
+} */
+
+/* @keyframes coloranimation {
+    0% { 
+        background-color: white;
+        left: 0px; top: 0px; 
+        border-radius: 0 0 0 0;
+    }
+    25% { 
+        background-color: red; 
+        left: 200px; top: 0px;
+        border-radius: 50% 0 0 0;
+    }
+    50% { 
+        background-color: green; 
+        left: 200px; top: 200px;
+        border-radius: 50% 50% 0 0;
+
+    }
+    75% { 
+        background-color: blue; 
+        left: 0px; top: 200px;
+        border-radius: 50% 50% 50% 0;
+    }
+    100% { 
+        background-color: yellow; 
+        left: 0px; top: 0px;
+        border-radius: 50% 50% 50% 50%;
+    }
+} */
+
+@keyframes coloranimation {
+    0% { 
+        background-color: white;
+        border-radius: 0 0 0 0;
+    }
+    25% { 
+        background-color: red; 
+        border-radius: 50% 0 0 0;
+    }
+    50% { 
+        background-color: green; 
+        border-radius: 50% 50% 0 0;
+
+    }
+    75% { 
+        background-color: blue; 
+        border-radius: 50% 50% 50% 0;
+    }
+    100% { 
+        background-color: white; 
+        left: 0px; top: 0px;
+        border-radius: 50% 50% 50% 50%;
+    }
+}

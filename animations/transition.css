@@ -1,0 +1,29 @@
+body {
+    background: #333;
+}
+
+.box {
+    background: white;
+    width: 200px;
+    height: 200px;
+    position: relative; /* The relative element is relative to itself */
+    margin: auto; /* Margin-auto takes all the available space. Can be used for centering of blocks */
+    top: 200px;
+    /* transition-property: background; */
+    /* transition-property: background, border-radius; */
+    /* transition-property: background, border-radius, transform; */
+    transition-property: all; /* all -> in hover. We do not specify each of properties */
+    transition-duration: 1s;
+    /* transition-duration: 1s, 3s; */ /* We can set the different duration for different transmition-property: 1s for background, 3s for border-radius  */
+    transition-timing-function: ease-out; /* linear is default timing-function */
+}
+
+.box:hover {
+    background: yellow;
+    border-radius: 50%;
+    transform: rotateY(180deg);
+}
+
+/* .box:active {
+    background: yellow;
+} */
