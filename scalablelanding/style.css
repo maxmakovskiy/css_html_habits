@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    
+    font-family: 'Permanent Marker', cursive;
+    font-size: 24px;
+    line-height: 1.6;
+    color: rgb(201, 198, 198);
+}
+
+#showcase {
+    background-image: url("image6.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    /* flex layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 0 20px;
+}
+
+#showcase h1 {
+    line-height: 1.1;
+    color: rgb(20, 20, 34);
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+#showcase .button {
+    text-decoration: none;
+    color: rgb(201, 198, 198);
+    border: rgb(201, 198, 198) 1px solid;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+#showcase .button:hover {
+    background: rgb(20, 20, 34);
+    color: whitesmoke;
+}
+
+#section-a {
+    padding: 20px;
+
+    background: rgb(20, 20, 34);
+    color: rgb(201, 198, 198);
+    text-align: center;
+}
+
+#section-b {
+    padding: 20px;
+    color: rgb(58, 58, 58);
+    text-align: center;
+}
+
+#section-c {
+    display: flex;
+}
+
+#section-c div {
+    padding: 20px;
+}
+
+#section-c .box-1, #section-c .box-3 {
+    background: rgb(20, 20, 34);
+    color: rgb(201, 198, 198);
+}
+
+#section-c .box-2 {
+    background: white;
+    color: rgb(58, 58, 58);
+}
