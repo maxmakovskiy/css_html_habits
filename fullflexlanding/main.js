@@ -18,7 +18,7 @@ $(document).ready(function() {
         $('#section-2').removeClass();
         $('#section-2').addClass(landscape_class);
 
-        // menu-links switching
+        // menu-links (selected) switching
         $('.menu-landscapes a.selected').removeClass('selected');
         $(this).addClass('selected');
 
