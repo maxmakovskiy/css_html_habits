@@ -1,0 +1,236 @@
+/* Begin Reset */
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* End Reset */
+
+
+/* Begin General */
+html {
+	font-size: 62.5%;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    font-family: 'Livvic', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+section {
+    padding: 9rem 1%;
+}
+
+legend {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+    
+}
+
+button {
+    width: 20rem;
+    height: 4rem;
+    margin-top: 1rem;
+    font-family: 'Livvic', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+
+[class$='-flex'] {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+/* End General */
+
+
+/* Begin Main Header */
+.main-header-flex {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* padding: 2rem 0 0; */
+    padding: 2rem 5% 0;
+    font-size: 1.7rem;
+}
+
+.menu-top {
+    width: 57rem;
+}
+
+.menu-top a {
+    margin: 1rem;
+    color: whitesmoke;
+}
+
+/* .phone-top {
+    width: 13.5rem;
+    text-align: right;
+    color: whitesmoke;
+}
+
+.phone-top a {
+    font-size: 1.2rem;
+    color: whitesmoke;
+} */
+/* End Main Header */
+
+
+/* Begin Section-1 */
+#section-1 {
+    width: 100%;
+    padding-top: 13rem;
+    color: #fff;
+    background-image: url("atmoshpere.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#section-1 h1 {
+    font-size: 5.4rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+#section-1 p {
+    margin-bottom: 1rem;
+}
+
+#section-1 .section-1-button {
+    color: whitesmoke;
+    border: whitesmoke 1px solid;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+/* End Section-1 */
+
+
+/* Begin Section-2 */
+#section-2 {
+    padding-right: 10%;
+    padding-left: 10%;
+    height: 100vh;
+}
+
+#section-2.nature1{
+    background-image: url("aerial.jpg");
+    background-position: top;
+}
+
+#section-2.nature2{
+    background-image: url("image.jpg");
+    background-position: top;
+}
+
+#section-2.nature3{
+    background-image: url("image3.jpg");
+    background-position: top;
+}
+
+#section-2.nature1, #section-2.nature2, #section-2.nature3 {
+    background-size: cover;
+    transition: all .5s ease;
+}  
+
+#section-2 h2 {
+    padding-bottom: 3rem;
+    color: whitesmoke;
+}
+
+.menu-landscapes a {
+    padding: 1rem 2rem;
+    line-height: 4rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: whitesmoke;
+    border-radius: 2px;
+}
+
+.menu-landscapes a:hover, .menu-landscapes a.selected {
+    color: #000;
+    background: whitesmoke;
+    transition: all .5s ease;
+}
+
+.landscape {
+    display: none;
+    width: 31rem;
+    margin: 6rem auto 0;
+    padding: 3rem 1rem;
+    text-align: center;
+    background: whitesmoke;
+    border-radius: 2px;
+    transition: all .5s ease;
+}
+
+.landscape.selected {
+    display: block;
+}
+
+.landscape h4, .landscape p:last-of-type {
+    padding-bottom: 2rem;
+    font-size: 2.4rem;
+}
+
+.landscape h4 {
+    font-weight: 400;
+}
+
+.landscape p:last-of-type {
+    font-weight: 500;
+}
+
+#section-2 button {
+    color: black;
+    background: #C9D7CB; 
+}
+
+#section-2 button:hover {
+    background: #AFBEA6;
+}
+/* End Section-2 */
+
+
+/* Begin Section-3 */
+/* End Section-3 */
+
+
+/* Begin Section-4 */
+/* End Section-4 */
