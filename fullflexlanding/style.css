@@ -229,8 +229,91 @@ button {
 
 
 /* Begin Section-3 */
+#section-3 {
+    background-image: url("blurred-background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#section-3 article {
+    width: 70rem;
+    margin: 0 auto;
+}
+
+#section-3 h2 {
+    color: whitesmoke;
+}
+
+#section-3 h3 {
+    padding: 6rem 0 1rem;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#section-3 p {
+    padding-left: 3.25rem;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
 /* End Section-3 */
 
 
 /* Begin Section-4 */
+#section-4 {
+    background-image: url("boat-ocean-sail.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#section-4 h2 {
+    padding-bottom: 2rem;
+}
+
+#section-4 .nature-quotes-flex li {
+    width: 30%;
+    padding: 6rem 2rem 0;
+    border-radius: 2px;
+    color: rgb(22, 22, 22);
+}
+
+#section-4 .nature-quotes-flex h4 {
+    text-align: left;
+    font-weight: 500;
+    font-size: 2.3rem;
+}
+
+#section-4 .nature-quotes-flex p {
+    padding-top: 0.5rem;
+    font-size: 1.7rem;
+    font-weight: 100;
+}
 /* End Section-4 */
+
+
+/* Begin Main Footer */
+#main-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #69626D;
+}
+
+#main-footer .copyright {
+    width: 25rem;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.4rem;
+    background: #F0E7D8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* End Main Footer */
