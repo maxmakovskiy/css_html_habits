@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function() { //jQuery
     // nav menu-top
     $('menu-top a').click(function(e) {
         e.preventDefault();
